@@ -1,0 +1,122 @@
+
+
+  /* Masterpage dimensions */
+body
+{
+  background-color: lightgrey;
+}
+
+header
+{
+  background-color: black;
+}
+footer
+{
+  background-color: lightgray;
+
+}
+main {
+    background-color: white;
+  }
+  main article img {
+    width: 100%;
+  }
+
+
+
+    /*Main Navigation */
+
+
+
+/*                        I borrowed this code from w3schools. main code for nav buttons.                                                              */
+  .button {
+      background-color: white;
+    }
+      .button1 {
+          background-color: white;
+          color: black;
+      }
+      .buttonSelected {
+          background-color: white;
+          color: Red;
+      }
+      .button1:hover {
+          background-color: white;
+          color: red;
+      }
+/*       Hyperlink text(wasnt working as buttons so i've changed it)                                                          */
+      a:link {
+
+          color: black;
+      }
+      a:visited {
+
+          color: black;
+      }
+      a:hover {
+          color: red;
+      }
+
+
+
+
+/* mostly homepage */
+
+/*                       Index page/ Main canvas                                                              */
+  #Middle
+  {
+  background-color: white;
+  }
+
+  #Infographic
+  {
+  background-color: white;
+  }
+
+
+/*                       Index page/ This box is used to keep track of the distance from right side of canvas                                                              */
+
+
+  #main_col {
+    background-color: white;
+  }
+
+
+
+
+
+/* Text */
+
+/*                Font sizes, types */
+
+h1 {
+
+}
+p {
+
+}
+nav h1{
+
+}
+
+
+#textbox {
+
+}
+#Credits {
+
+}
+#foreword {
+
+}
+#text_list {
+
+}
+/* Caption */
+figure figcaption {
+
+}
+figure {
+
+
+}
