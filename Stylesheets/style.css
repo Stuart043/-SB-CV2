@@ -1,0 +1,250 @@
+
+  /* Masterpage dimensions */
+body
+{
+
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+header
+{
+
+}
+footer
+{
+
+  min-height: 100px;
+}
+main {
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  main article img {
+    width: 100%;
+  }
+
+
+
+    /*Main Navigation */
+nav{
+  margin-right: auto;
+  margin-left: auto;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+}
+.container{
+    height: 60px;
+    width: 100px;
+     flex-grow: 1;
+}
+
+/*                        I borrowed this code from w3schools. main code for nav buttons.                                                              */
+  .button {
+
+
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.1s;
+      cursor: pointer;
+    }
+      .button1 {
+
+      }
+      .buttonSelected {
+
+      }
+      .button1:hover {
+
+      }
+/*       Hyperlink text(wasnt working as buttons so i've changed it)                                                          */
+      a:link {
+          text-decoration: none;
+
+      }
+      a:visited {
+          text-decoration: none;
+
+      }
+      a:hover {
+
+      }
+
+
+
+
+/* mostly homepage */
+
+/*                       Index page/ Main canvas                                                              */
+  #Middle
+  {
+
+  min-height: 700px;
+
+  padding-left: 19%;
+  padding-top: 50px;
+  }
+
+  #Accessnav  {
+  min-height: 200px;
+  padding-left: 19%;
+  }
+
+  #Accessnav2{
+
+  }
+
+  #Infographic
+  {
+
+  }
+
+#twocolsize {
+
+   height: 300px;
+      width: 300px;
+      display: inline-block;
+       margin: 1%;
+}
+       #nothing {
+         width: 80px;
+             display: inline-block;
+}
+/*                       Index page/ This box is used to keep track of the distance from right side of canvas                                                              */
+#logo
+{
+
+
+    height: 330px;
+}
+#col1 {
+       margin: 1%;
+          height: 0.1px; /* Box isnt sizing with the image for some reason. and the box is covering the "o hello", I'll fix this later */
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .image2 {
+    position: absolute;
+    top: 600px;
+    left: 0px;
+  }
+
+  .image3 {
+    position: absolute;
+    top: 1000px;
+    left: 0px;
+  }
+
+
+  #main_col {
+
+        margin-top: 1%;
+        min-height: 1300px;
+  }
+
+#main_col2 {
+  padding-top: 50px;
+      margin-top: 1%;
+      min-height: 1300px;
+}
+
+#main_col_article{
+      padding-bottom: 50px;
+}
+#nav_padding{
+padding-top: 20px;
+}
+
+#containerNav {
+      padding-top: 1%;
+      padding-bottom: 2%;
+      margin-right: auto;
+      margin-left: auto;
+}
+
+
+
+/* Text */
+
+/*                Font sizes, types */
+
+h1 {
+font-size: 25pt;
+font-family: "Arial", Arial, sans-serif;
+}
+p {
+font-size: 14pt;
+font-family: "Arial", Arial, sans-serif;
+}
+nav h1{
+  font-size: 16pt;
+}
+
+
+#textbox {
+      padding-top: 5%;
+      padding-bottom: 5px;
+
+      padding-left: 15%;
+      padding-right: 15%;
+}
+#Credits {
+      padding-top: 3%;
+      padding-bottom: 5px;
+    text-align: center;
+      padding-left: 8%;
+      padding-right: 8%;
+}
+#foreword {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+#text_list {
+            padding-left: 10%;
+
+            padding-top: 10px;
+            padding-bottom: 10px;
+}
+/* Caption */
+figure figcaption {
+    font-size: 14pt;
+    text-align: center;
+}
+figure {
+    display: inline-block;
+
+}
+
+
+
+/* Button */
+
+
+    #NavButton  {
+          height: 60px;
+          width: 240px;
+    }
+
+    #AccessnavButton  {
+          height: 50px;
+              float: right;
+
+          width: 70px;
+    }
